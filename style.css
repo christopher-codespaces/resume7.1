@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+    background-color: tomato;
+    color: white;
+    margin-bottom: 0%; 
+    width: 2500px;
+}
+
+.image {
+    border: 4px solid white;
+    border-radius: 100px;
+    width: "150";
+    height: 200px;
+    position: absolute;
+    margin-bottom: 220px;
+
+}
+.image-text {
+    font-weight: 600;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 200px;
+}
+.sub-text {
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.menu {
+    padding-top: 0;
+    color: "white";
+    background-color: black;
+    width: 250px;
+    height:  250px;
+
+
+}
+
+.header-text{
+    height: 75px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.text{
+    color: white;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+.code-text{
+    color: rgb(1, 27, 1);
+    text-decoration: none !important;
+    font-size: 16px;
+}
+.a {
+    text-decoration: none;
+    background-color: white;
+
+
+}
+
+.section-ed {
+display:flex;
+flex-direction: column;
+
+}
+
+.ed {
+    margin-top:40px;
+    margin-bottom: 40px;
+
+}
+
+.exp {
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: row;
+}
+.container-exp {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-right: 10px;
+}
+.container-ed {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-right: 10px;
+}
+
+form {
+    font-family: Arial, sans-serif;
+    background-color: peachpuff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.select {
+    width: 250px;
+}
+.textarea{
+    width: 250px;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color:  black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    border-color: #4cf;  
+    width: 250px;
+}
+
+/* Set font size and color for form labels */
+label {
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
